@@ -1,8 +1,8 @@
-%% AMS595 Hw1 Estimating Pi
+%% AMS595 Hw1 Estimating Pi Task1
 
 %% Experiment of for loop
 %Conduct the experiment for certain number of points.
-pi_for = for_loop(100000);
+pi_for = for_loop(1e7);
 disp(pi_for*4)
 
 
